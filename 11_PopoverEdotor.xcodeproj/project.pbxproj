@@ -14,6 +14,7 @@
 		03C4FA4C1B1B55340031F82E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C4FA4B1B1B55340031F82E /* Images.xcassets */; };
 		03C4FA4F1B1B55340031F82E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C4FA4D1B1B55340031F82E /* LaunchScreen.xib */; };
 		03C4FA5B1B1B55340031F82E /* _1_PopoverEdotorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C4FA5A1B1B55340031F82E /* _1_PopoverEdotorTests.m */; };
+		03C4FA661B1B55F50031F82E /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C4FA651B1B55F50031F82E /* EditorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03C4FA541B1B55340031F82E /* 11_PopoverEdotorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 11_PopoverEdotorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C4FA591B1B55340031F82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C4FA5A1B1B55340031F82E /* _1_PopoverEdotorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_PopoverEdotorTests.m; sourceTree = "<group>"; };
+		03C4FA641B1B55F50031F82E /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		03C4FA651B1B55F50031F82E /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				03C4FA451B1B55340031F82E /* ViewController.h */,
 				03C4FA461B1B55340031F82E /* ViewController.m */,
 				03C4FA481B1B55340031F82E /* Main.storyboard */,
+				03C4FA641B1B55F50031F82E /* EditorViewController.h */,
+				03C4FA651B1B55F50031F82E /* EditorViewController.m */,
 				03C4FA4B1B1B55340031F82E /* Images.xcassets */,
 				03C4FA4D1B1B55340031F82E /* LaunchScreen.xib */,
 				03C4FA3E1B1B55340031F82E /* Supporting Files */,
@@ -222,6 +227,7 @@
 				03C4FA471B1B55340031F82E /* ViewController.m in Sources */,
 				03C4FA441B1B55340031F82E /* AppDelegate.m in Sources */,
 				03C4FA411B1B55340031F82E /* main.m in Sources */,
+				03C4FA661B1B55F50031F82E /* EditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 11_PopoverEdotor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 11_PopoverEdotor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +426,7 @@
 				03C4FA601B1B55340031F82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C4FA611B1B55340031F82E /* Build configuration list for PBXNativeTarget "11_PopoverEdotorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				03C4FA631B1B55340031F82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

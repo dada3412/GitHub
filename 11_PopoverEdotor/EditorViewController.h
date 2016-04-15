@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EditorViewController.h
 //  11_PopoverEdotor
 //
 //  Created by Nico on 15/5/31.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIPopoverControllerDelegate>
-
+@interface EditorViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *emailText;
 
 @end
-
