@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AA07071CC15DC600EB6021 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA07061CC15DC600EB6021 /* Test.m */; };
 		03C4FA411B1B55340031F82E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C4FA401B1B55340031F82E /* main.m */; };
 		03C4FA441B1B55340031F82E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C4FA431B1B55340031F82E /* AppDelegate.m */; };
 		03C4FA471B1B55340031F82E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C4FA461B1B55340031F82E /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AA07051CC15DC600EB6021 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		03AA07061CC15DC600EB6021 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		03C4FA3B1B1B55340031F82E /* 11_PopoverEdotor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 11_PopoverEdotor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C4FA3F1B1B55340031F82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C4FA401B1B55340031F82E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				03C4FA481B1B55340031F82E /* Main.storyboard */,
 				03C4FA641B1B55F50031F82E /* EditorViewController.h */,
 				03C4FA651B1B55F50031F82E /* EditorViewController.m */,
+				03AA07051CC15DC600EB6021 /* Test.h */,
+				03AA07061CC15DC600EB6021 /* Test.m */,
 				03C4FA4B1B1B55340031F82E /* Images.xcassets */,
 				03C4FA4D1B1B55340031F82E /* LaunchScreen.xib */,
 				03C4FA3E1B1B55340031F82E /* Supporting Files */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AA07071CC15DC600EB6021 /* Test.m in Sources */,
 				03C4FA471B1B55340031F82E /* ViewController.m in Sources */,
 				03C4FA441B1B55340031F82E /* AppDelegate.m in Sources */,
 				03C4FA411B1B55340031F82E /* main.m in Sources */,
